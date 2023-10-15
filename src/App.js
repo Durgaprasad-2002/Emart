@@ -4,12 +4,7 @@ import ProductInfo from "./pages/ProductInfo";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
-  return (
-    <Routes>
-      <Route index element={<Index />} />
-      <Route path="/product" element={<ProductInfo />} />
-    </Routes>
-  );
+  return <Index />;
 }
 
 export default App;
